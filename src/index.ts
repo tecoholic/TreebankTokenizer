@@ -40,7 +40,7 @@ class MacIntyreContractions {
     ['hi', ',', 'my', 'name', 'ca', "n't", 'hello', ',']
     
  */
-export default class TreebankTokenizer {
+class TreebankTokenizer {
   readonly STARTING_QUOTES: [RegExp, string][] = [
     [/^\"/, "``"],
     [/(``)/, " $1 "],
@@ -181,3 +181,5 @@ export default class TreebankTokenizer {
     }
   }
 }
+
+module.exports = TreebankTokenizer;
