@@ -1,0 +1,35 @@
+{
+  "name": "treebank-tokenizer",
+  "version": "0.0.1",
+  "description": "NLTK TreebankTokenizer Ported from Python to JS",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecoholic/TreebankTokenizer.git"
+  },
+  "keywords": [
+    "nltk",
+    "treebank",
+    "tokenizer"
+  ],
+  "author": "Arunmozhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tecoholic/TreebankTokenizer/issues"
+  },
+  "homepage": "https://github.com/tecoholic/TreebankTokenizer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-typescript": "^7.16.5",
+    "@types/jest": "^27.0.3",
+    "babel-jest": "^27.4.5",
+    "esbuild": "^0.14.9",
+    "esbuild-node-externals": "^1.4.1",
+    "jest": "^27.4.5"
+  }
+}
